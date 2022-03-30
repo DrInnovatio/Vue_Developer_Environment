@@ -1,0 +1,15 @@
+@import "variables.scss";
+
+h1 {
+  color: $red;
+  transform: rotate(-30deg);
+
+  span {
+    color: blue;
+  }
+
+  &:hover {
+  color: darken($red, 10%);
+  } 
+}
+
